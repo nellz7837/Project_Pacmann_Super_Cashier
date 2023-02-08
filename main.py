@@ -75,11 +75,7 @@ class Transaction:
         'Total harga item':total_item_price
        }
         
-        trx_df = pd.DataFrame(data)
-        trx_df.index += 1
- 
-        print(trx_df[['Nama Item', 'Qty', 'Harga per item', 'Total harga item']])
-        
+             
     def total_price_print(self):
         self.calculate_total_price()
         self.check_order()

@@ -16,7 +16,7 @@ Berawal dari keresahan seorang Andi tentang bisnis supermarket yang dijalaninya 
 - Mengecek barang belanjaan dengan `menampilkan seluruh barang belanjaan`.
 
 ## Flowchart
-----cari dulu gambar flowchartnya---
+![simple flowchart](https://user-images.githubusercontent.com/117026628/217517730-93e60f48-224f-4307-bf30-2a270c0965e7.jpg)
 
 ## Generic Function
 - `__init__`. Menginisiasi variable utama pada sebuah class. Dalam hal ini adalah variable `items` yang dinisiasi.
@@ -61,36 +61,29 @@ Membuat Customer1 dengan code `Customer1 = Transaction()`
 Customer ingin menambahkan dua item baru menggunakan method `add_item()`. Item yang ditambahkan adalah sebagai berikut:
 - Nama Item: Ayam Goreng, Qty: 2, Harga: 20000
 - Nama Item: Pasta Gigi, Qty: 3, Harga: 15000
-  **Output:**
+
+
+![test 1](https://user-images.githubusercontent.com/117026628/217529044-c8d70b11-a8ed-43b0-aa4d-c54c27e0cec6.png)
 
 ### Test 2: delete_item()
 Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka Customer menggukan method `delete_item()` untuk menghapus item. Item yang ingin dihapuskan adalah **Pasta Gigi**.
- **Output:**
+
+
+![test 2](https://user-images.githubusercontent.com/117026628/217529082-a881e664-05a0-4b60-89fd-804a8bb91749.png)
+![test 2 1](https://user-images.githubusercontent.com/117026628/217530063-b39729da-ff19-459a-97b2-dafcb7972481.png)
 
 ### Test 3: reset_transaction()
 Ternyata setelah dipikir-pikir, Customer salah memasukkan item yang ingin dibelanjakan! Daripada menghapusnya satu - satu, maka Customer cukup menggunakan method `reset_transaction()` untuk menghapus semua item yang sudah ditambahkan.
- **Output:**
 
+
+![test 3](https://user-images.githubusercontent.com/117026628/217530358-c38e8ee8-204c-43e5-8d9d-50002d7036c3.png)
 
 ### Test 4: total_price_print()
 Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method `total_price_print()`. Sebelum mengeluarkan output total belanja akan menampilkan item - item yang dibeli. Item yang ditambahkan adalah sebagai berikut:
 - Nama Item: Ayam Goreng, Qty: 2, Harga: 20000
-- Nama Item: Pasta Gigi, Qty: 3, Harga: 15000
-  **Output:**
 
-### Test 5: update_item_name()
-Item yang ditambahkan adalah sebagai berikut:
-- Nama Item: Ayam Goreng, Qty: 2, Harga: 20000
-Customer ingin mengganti nama **Ayam Goreng** yang terlanjur ditambahkan menggunakan metode `update_item_name()` sehingga nama item tersebut menjadi **Ayam Goreng Balado**
-  **Output:**
 
-### Test 6: update_item_qty()
-Customer ingin mengganti Quantity dari **Ayam Goreng Balado** yang sebelumnya 2 buah menjadi 10 buah dengan metode `update_item_qty()`
-  **Output:**
-
-### Test 7: update_item_price()
-Customer ingin mengganti harga per item dari **Ayam Goreng Balado** yang sebelumnya 20000 menjadi 25000 per item-nya dengan metode `update_item_price()`.
-  **Output**:
+![test 4](https://user-images.githubusercontent.com/117026628/217533999-04e745fc-6eb6-4346-8139-12380ab639ca.png)
 
 
 ## Kesimpulan
